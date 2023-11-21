@@ -4,14 +4,14 @@ using System.Text;
 
 namespace SchoolGrades.BusinessObjects
 {
-    class StudentAnnotation
+    public class StudentAnnotation
     {
-        int? idAnnotation;
-        int? idStudent;
-        string annotation;
-		string idSchoolYear;
-		DateTime? instantTaken;
-		DateTime? instantClosed;
+        public int? idAnnotation;
+        public int? idStudent;
+        public string annotation;
+		public string idSchoolYear;
+		public DateTime? instantTaken;
+		public DateTime? instantClosed;
 
         public int? IdAnnotation { get => idAnnotation; set => idAnnotation = value; }
         public string Annotation { get => annotation; set => annotation = value; }

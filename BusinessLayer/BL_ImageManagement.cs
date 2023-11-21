@@ -46,5 +46,10 @@ namespace SchoolGrades
         {
             return dl.GetCaptionsOfThisImage(Text);
         }
+
+        public object AnnotationsAboutThisStudent(Student currentStudent, string yearUsed, System.Windows.RoutedEventHandler @checked)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
